@@ -70,10 +70,9 @@ ORDER BY p.pub_date desc;
 
 
 -- Exercise 11
-INSERT INTO bookmarks(user_id, post_id) VALUES(26, 219);
-INSERT INTO bookmarks(user_id, post_id) VALUES(26, 220);
-INSERT INTO bookmarks(user_id, post_id) VALUES(26, 221);
-
+INSERT INTO bookmarks(user_id, post_id, timestamp) VALUES(26, 219, now());
+INSERT INTO bookmarks(user_id, post_id, timestamp) VALUES(26, 220, now());
+INSERT INTO bookmarks(user_id, post_id, timestamp) VALUES(26, 221, now());
 
 
 -- Exercise 12
